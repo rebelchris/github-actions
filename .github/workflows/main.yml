@@ -1,0 +1,9 @@
+name: Our very first GitHub Action
+on: workflow_dispatch
+jobs: 
+	Testing-Actions:
+		runs-on: ubuntu-latest
+		steps:
+			- run: echo "I'm walking! 🚶‍♀️"
+			- run: echo "Actually, I\'m running on ${{ runner.os }} 🏃"
+			- run: echo "I'm done! My status: ${{ job.status }} 🎉"
