@@ -7,5 +7,5 @@ jobs:
       - name: A action is born
         run: |
           echo "I'm walking! 🚶‍♀️"
-	  echo "Actually, I'm running on ${{ runner.os }} 🏃"
-	  echo "I'm done! My status: ${{ job.status }} 🎉"
+          echo "Actually, I'm running on ${{ runner.os }} 🏃"
+          echo "I'm done! My status: ${{ job.status }} 🎉"
